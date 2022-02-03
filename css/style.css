@@ -201,7 +201,7 @@ a#save-now {
 }
 .editor > .tool{
   
-  /* padding: 100px; */
+  padding: 100px;
   width: 100%;
   margin: 5px;
   justify-content: center;
@@ -746,4 +746,23 @@ input:checked + .slider:before {
     background: rgb(81, 255, 13);
   }
   
+}
+/* responsive design */
+
+
+ .canvas {
+  display: flexbox;
+  display: flex ;
+  flex-wrap: wrap;
+}
+.essential-tool{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.exposure-box{
+  display: flex;
+  flex-wrap:wrap-reverse;
+  justify-content:center;
 }
